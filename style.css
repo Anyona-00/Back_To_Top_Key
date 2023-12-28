@@ -1,16 +1,25 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter+Tight:wght@400;600;700&family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@100;400;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box; 
+}
+
 body {
     background-color: rgb(24, 81, 104);
     padding: 5em 20em;
+
+font-family: 'Inconsolata', monospace;
+font-family: 'Inter Tight', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
 }
 
-* {
-    box-sizing: border-box;
-    
-}
-
+/*Heading*/
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+   
     font-size: 400%;
     font-style: normal;
     color: rgb(249, 249, 252);
@@ -18,6 +27,8 @@ h1 {
 
 }
 
+
+/*author*/
 h2 {
 text-align: center;
 color: rgb(249, 249, 250);
@@ -27,12 +38,15 @@ font-weight: bold;
 
 }
 
+
+/*content*/
 p {
     text-align: justify;
     font-size: 200%;
 
 }
 
+/*Back-to-top*/
 #back-to-top {
     position: fixed;
     bottom: 3em;
