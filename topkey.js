@@ -8,8 +8,7 @@ var btt = document.getElementById("back-to-top"),
     offset = 100,
     scrollPos,
     docHeight,
-   // isFirefox = typeof InstallTrigger !== 'undefined';
-
+  
     
 
 
@@ -36,9 +35,4 @@ window.addEventListener( "scroll", function( event ) {
 //btt.addEventListener("click", function(event){
     //event.preventDefault();
 
-   /* if ( isFirefox ) {
-        docElem.scrollTop = 0;
-    }else{
-        body.scrollTop = 0;
-    }
-}); */
+  
